@@ -94,6 +94,15 @@ audio {
     display: table;
     clear: both;
 }
+/*旋转的音符效果*/
+.music {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 30px;
+    animation: muscis 5s linear infinite;
+}
 @keyframes muscis {
     from {
         transform: rotate (0deg);
@@ -104,6 +113,14 @@ audio {
         transform: rotate(360deg);
         opacity: .8;
     }
+}
+
+.yinyue {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 
